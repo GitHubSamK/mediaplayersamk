@@ -78,14 +78,14 @@ function normalspeed() {
 function ff(ev){
 document.getElementById('btnFF').addEventListener('click', ff);
 vid = document.getElementById('myVideo');
-vid.currentTime += 20;
+vid.currentTime += 10;
 console.log(vid.currentTime);
 console.log(btnFF);
 
 }
 
 function seek(ev){
-    vid.currentTime = 270;
+    vid.currentTime = 27;
 }
 
 function load(ev){
